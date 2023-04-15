@@ -43,3 +43,13 @@ Please type in the math operation you would like to complete:
 Do you want to calculate again?
 Please type Y for YES or N for NO.
 ''')
+
+        if calc_again.upper() == 'Y':
+        calculate()
+    elif calc_again.upper() == 'N':
+        print('See you later.')
+    else:
+        again()
+
+calculate()
+# print("Hello")
