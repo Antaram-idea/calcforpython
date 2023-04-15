@@ -37,3 +37,9 @@ Please type in the math operation you would like to complete:
         
     # Add again() function to calculate() function
     again()
+    
+ def again():
+    calc_again = input('''
+Do you want to calculate again?
+Please type Y for YES or N for NO.
+''')
